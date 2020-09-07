@@ -45,3 +45,18 @@ header button{
 }
 
 /* End Header Area */
+
+/* Google Image Area */
+
+#google-content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+#google-content > section{
+  padding: 20px;
+}
