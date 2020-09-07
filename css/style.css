@@ -103,5 +103,21 @@ input:focus{
 }
 
 footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  background: rgba(242,242,242,1)
+}
+
+.left ul, .right ul{
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0px 15px;
+}
+footer li{
+  padding: 15px;
 }
