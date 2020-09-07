@@ -1,6 +1,7 @@
 body{
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.1;
 }
 
 
@@ -46,7 +47,7 @@ header button{
 
 /* End Header Area */
 
-/* Google Image Area */
+/* Start Google Search Area */
 
 #google-content{
   height: 100%;
@@ -54,9 +55,53 @@ header button{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 #google-content > section{
-  padding: 20px;
+  padding: 15px;
+}
+
+.search{
+  position: absolute;
+  padding: 15px;
+  min-width: 40px;
+  color: gray;
+}
+
+.microphone{
+  color: gray;
+  position: absolute;
+  padding: 15px 0px;
+}
+
+input{
+  border-radius: 25px;
+  border: 1.5px solid rgba(222,225,229,1);
+  width: 475px;
+  height: 48px;
+  max-width: 600px;
+  padding: 0px 40px;
+  font-size: 16px;
+}
+
+input:focus{
+  outline-color: rgba(222,225,229,1);
+  outline: 0;
+  padding: 0px 40px;
+  box-shadow: 0 0 5px #ddd;
+  border-radius: 25px;
+}
+
+#google-content button{
+  margin: 0px 5px;
+  padding: 10px 20px;
+  border: none;
+  color: rgba(95,99,103,1);
+  border-radius: 5px;
+  background: rgba(244,244,244,1)
+}
+
+footer{
+  display: flex;
 }
