@@ -1,7 +1,10 @@
 body{
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
+
+/* Begin Header Area */
 header{
   display: flex;
   justify-content: space-between;
@@ -14,18 +17,31 @@ header{
   height: 100%;
   display: flex;
   align-items: center;
-  margin: 0 5px;
+  margin: 6px 15px;
 }
 
 li{
-  padding: 15px;
+  padding: 8px;
 }
 
 a{
   text-decoration: none;
   color: rgba(50,50,50,1);
+  font-size: 13px;
+  font-weight: 400;
 }
 
 a:hover{
   border-bottom: 1px solid rgba(50,50,50,1);
 }
+
+header button{
+  color: white;
+  background: rgba(69,132,247,1);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+/* End Header Area */
