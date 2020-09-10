@@ -90,7 +90,13 @@ input:focus{
   outline: 0;
   padding: 0px 40px;
   box-shadow: 0 0 5px #ddd;
-  border-radius: 25px;
+}
+
+input:hover{
+  outline-color: rgba(222,225,229,1);
+  outline: 0;
+  padding: 0px 40px;
+  box-shadow: 0 0 5px #ddd;
 }
 
 #google-content button{
@@ -101,6 +107,14 @@ input:focus{
   border-radius: 5px;
   background: rgba(244,244,244,1)
 }
+
+#google-content button:hover{
+  box-shadow: 0 0 2px black;
+}
+
+/* End Google Search Area */
+
+/* Start Footer Area */
 
 footer{
   position: fixed;
@@ -121,3 +135,5 @@ footer{
 footer li{
   padding: 15px;
 }
+
+/* End Footer Area */
